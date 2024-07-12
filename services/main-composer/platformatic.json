@@ -1,0 +1,47 @@
+{
+  "$schema": "https://platformatic.dev/schemas/v1.49.1/composer",
+  "composer": {
+    "services": [
+      {
+        "id": "loose-account",
+        "openapi": {
+          "url": "/documentation/json",
+          "prefix": "/loose-account"
+        }
+      },
+      {
+        "id": "perfect-spittle",
+        "openapi": {
+          "url": "/documentation/json",
+          "prefix": "/perfect-spittle"
+        }
+      },
+      {
+        "id": "service-3",
+        "openapi": {
+          "url": "/documentation/json",
+          "prefix": "/service-3"
+        }
+      },
+      {
+        "id": "service-4",
+        "openapi": {
+          "url": "/documentation/json",
+          "prefix": "/service-4"
+        }
+      }
+    ],
+    "refreshTimeout": 1000
+  },
+  "watch": true,
+  "plugins": {
+    "paths": [
+      {
+        "path": "./plugins",
+        "encapsulate": false
+      },
+      "./routes"
+    ],
+    "typescript": "{PLT_MAIN_COMPOSER_TYPESCRIPT}"
+  }
+}

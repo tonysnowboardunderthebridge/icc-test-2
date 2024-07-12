@@ -1,0 +1,19 @@
+{
+  "name": "icc-test-2",
+  "workspaces": [
+    "services/*"
+  ],
+  "scripts": {
+    "start": "platformatic start"
+  },
+  "devDependencies": {
+    "fastify": "^4.26.2",
+    "borp": "^0.15.0"
+  },
+  "dependencies": {
+    "platformatic": "^1.49.1"
+  },
+  "engines": {
+    "node": "^18.8.0 || >=20.6.0"
+  }
+}
