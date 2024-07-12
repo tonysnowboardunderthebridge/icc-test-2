@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  ICC_URL: https://3640-5-179-184-227.ngrok-free.app
+  ICC_URL: https://acb4-5-77-94-42.ngrok-free.app
   APPLICATION_NAME: test-main-composer-10
 
 jobs:
