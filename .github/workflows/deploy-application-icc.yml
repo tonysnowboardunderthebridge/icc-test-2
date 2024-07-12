@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  ICC_URL: https://icc.plt
+  ICC_URL: https://9d8d-5-179-184-227.ngrok-free.app
   APPLICATION_NAME: test-main-composer-10
 
 jobs:
