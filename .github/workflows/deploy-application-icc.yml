@@ -6,8 +6,8 @@ on:
       - main
 
 env:
-  ICC_URL: https://acb4-5-77-94-42.ngrok-free.app
-  APPLICATION_NAME: test-main-composer-10
+  ICC_URL: https://fdb7-5-179-167-167.ngrok-free.app
+  APPLICATION_NAME: icc-test-3-1
 
 jobs:
   deploy-app-to-icc:
