@@ -5,8 +5,8 @@ on:
     types: [opened, synchronize]
 
 env:
-  ICC_URL: https://icc.plt
-  APPLICATION_NAME: test-app-1
+  ICC_URL: https://fdb7-5-179-167-167.ngrok-free.app
+  APPLICATION_NAME: icc-test-3-1
 
 jobs:
   deploy-app-to-icc:
